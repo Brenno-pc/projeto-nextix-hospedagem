@@ -24,13 +24,14 @@
     font-family:var(--font-corpo);
     margin: 0px ;
     padding: 0px ;
+    color: white;
 }
 
 
 
 body {
-    width: 97vw;
-    height: 96vh;
+    width: 95vw;
+    height: 94vh;
     background: url(../imagens/Img\ fundo\ alterado.png) ;
     background-color: black;
     background-position: center center;
@@ -38,7 +39,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
     h1 {
         color: red;
         font-family: var(--font-titulo);
@@ -50,10 +50,11 @@ body {
 
 
 div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.643);
     width: 500px;
-    height: 79vh;
+    height: 77vh ;
     margin: auto; 
+    border-radius: 10px 10px 0px 0px;
 }
     main {
         padding: 20px 40px;
@@ -64,36 +65,55 @@ div {
             font-size: 39px;
         }
 
+
         form {
             margin-bottom: 50px ;
         }
             .InputForm {
-                width: 320px;
+                display: block;
+                width: 330px;
                 height: 40px;
                 padding: 15px;
-                margin-top: 20px;      
+                margin-top: 20px; 
+                background-color: black;
+                border: 1px solid rgba(255, 255, 255, 0.735);   
+                border-radius: 10px;  
             }
                 ::placeholder {
                     font-size: 18px;
                 }
         
-        a#entrar {
-            text-align: center;
-            text-decoration: none ;
-            background-color: black;
-            margin: ;
-            padding: 10px;
-        }
-            a#entrar:hover {
-                text-decoration: none ;
-            }
+        a{
+            display: block ;
+            width: 355px;
+            height: 40px;
+            background-color: red;
+            color: white;
 
-        a {
-            text-decoration: none ;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+
+            padding: 15px 5px 5px 5px ;
+            border-radius: 10px;
         }
             a:hover {
-                text-decoration: underline;
+                background-color: darkred;
             }
-        
+
+            a#EsqueceuSenha {
+                background-color: rgba(0, 0, 0, 0);
+                font-size: 17px;
+            }
+
+                a#EsqueceuSenha:hover {
+                    text-decoration: underline;
+                    
+                }
+
+
+
+
+
 
 
