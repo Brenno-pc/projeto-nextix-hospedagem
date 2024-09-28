@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
+
     <link rel="shortcut icon" href="favicon/favicon NETFLIXx.ico" type="image/x-icon">
+
+
+
+    <link rel="stylesheet" href="estilo/mobile.css" media="screen and (max-width:640px)">
+    <link rel="stylesheet" href="estilo/tablet.css" media="screen and (min-width:641px)  and (max-width:1024px)">
+    <link rel="stylesheet" href="estilo/laptop.css" media="screen and (min-width:1025px) and (max-width:1280px)">
+    <link rel="stylesheet" href="estilo/desktop-tv.css" media="screen and (min-width:1281px)">
+
     <title>Nextmov</title>
 </head>
 <body>
@@ -12,27 +20,24 @@
         <h1> NEXTMOV </h1>
     </header>
 
-    <div>
-        <main>
-            <h2>Entrar</h2>
-            <form method="post">
-                <p>
-                    <input type="text" class="InputForm" placeholder="Email ou número de celular">
-                </p>
-                <p>
-                    <input type="text" class="InputForm" placeholder="Senha" required>
-                </p>
-            </form>
-
-            <a href="#" id="Entrar" >Entrar</a>
-            <a href="#" id="EsqueceuSenha">Esqueceu a senha?</a> <br>
-            <p> 
-                <input type="checkbox" name="Login" id="iLogin">
-                <label for="iLogin">Salvar Login</label>
+    <main>
+        <h2>Entrar</h2>
+        <form method="post">
+            <p>
+                <input type="text" class="InputForm" placeholder="Email ou número de celular">
             </p>
+            <p>
+                <input type="text" class="InputForm" placeholder="Senha" required>
+            </p>
+        </form>
 
-        </main>
-    </div> 
-
+        <a href="#" id="Entrar" >Entrar</a>
+        <a href="#" id="EsqueceuSenha">Esqueceu a senha?</a> <br>
+        <p> 
+            <input type="checkbox" name="Login" id="iLogin">
+            <label for="iLogin">Salvar Login</label>
+        </p>
+    </main>
+    
 </body>
 </html>

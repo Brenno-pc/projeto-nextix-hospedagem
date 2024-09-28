@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'titulo';
+    src: url(../fontes/titulo/BebasNeue.otf) format(OpenType);
+}
+
+@font-face {
+    font-family: 'corpo' ;
+    src: url(../fontes/corpo/Segoe\ UI.ttf) format(TrueType);
+}
+
+
+:root {
+    --font-titulo:'titulo',Arial, Helvetica, sans-serif;
+    --font-corpo:'corpo',Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    margin: 0px ;
+    padding: 0px ;
+    font-family:var(--font-corpo);
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/Img\ fundo\ alterado.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    header {
+        background-color: rgba(255, 255, 255, 0);
+        padding: 30px ;
+    }
+        h1 {
+            font-size: 3em;
+            color: red;
+        }
+
+    main {
+        background-color: blue;
+    }
+
+
