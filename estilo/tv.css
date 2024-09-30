@@ -40,7 +40,7 @@ body {
     }
         h1 {
             font-family: var(--font-titulo);
-            font-size: 8.5vw;
+            font-size: 7vw;
             font-style: italic;
             font-weight: lighter;
             color: red;
@@ -55,23 +55,23 @@ body {
     }
         h2 {
             margin-top: 20px ;
-            font-size: 24px ;
+            font-size: 40px ;
             text-align: center;
         }
         
         section {
-            height: 70vh;
+            height: 63vh;
 
-            padding: 30px 65px 30px 65px ;
+            padding: 70px 150px 70px 150px ;
             background-color: rgba(0, 0, 0, 0.677);
-            border-radius: 15px ;
+            border-radius: 25px ;
         }
             form {
                 margin-top: 30px ;
             }
                 #email {
-                    width: 205px;
-                    padding: 20px ;
+                    width: 270px;
+                    padding: 26px ;
                     margin-bottom: 10px ;
                     border-radius: 10px ;
                 }
@@ -79,8 +79,8 @@ body {
                         background-color: lightgrey ;
                     }
                 #senha {
-                    width: 205px;
-                    padding: 20px ;
+                    width: 270px;
+                    padding: 26px ;
                     border-radius: 10px ;
                 }
                     #senha:hover {
@@ -90,7 +90,7 @@ body {
 
             a {
                 display: block ;
-                width: 205px;
+                width: 270px;
 
                 background-color: red;
                 color: white;
@@ -98,7 +98,7 @@ body {
                 text-align: center;
                 text-decoration: none;
 
-                padding: 15px ;
+                padding: 26px ;
                 border-radius: 10px;
             }
                 a:hover {
@@ -113,6 +113,3 @@ body {
                 a#EsqueceuSenha:hover {
                     text-decoration: underline;
                 }
-
-
-

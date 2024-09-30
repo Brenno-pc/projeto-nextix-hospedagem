@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'titulo';
+    src: url(../fontes/titulo/BebasNeue.otf) format(OpenType);
+}
+
+@font-face {
+    font-family: 'corpo' ;
+    src: url(../fontes/corpo/Segoe\ UI.ttf) format(TrueType);
+}
+
+
+:root {
+    --font-titulo:'titulo',Arial, Helvetica, sans-serif;
+    --font-corpo:'corpo',Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+    font-family:var(--font-corpo);
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/Img\ fundo\ alterado.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    header {
+        background-color: rgba(255, 255, 255, 0);
+        padding: 30px ;
+    }
+        h1 {
+            font-family: var(--font-titulo);
+            font-size: 8vw;
+            font-style: italic;
+            font-weight: lighter;
+            color: red;
+        }
+
+    main {
+        background-color: rgba(0, 0, 0, 0);
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        margin-top:40px ;
+    }
+        h2 {
+            margin-top: 20px ;
+            font-size: 36px ;
+            text-align: center;
+        }
+        
+        section {
+            height: 65vh;
+
+            padding: 30px 90px 30px 90px ;
+            background-color: rgba(0, 0, 0, 0.677);
+            border-radius: 15px ;
+        }
+            form {
+                margin-top: 30px ;
+            }
+                #email {
+                    width: 235px;
+                    padding: 22px ;
+                    margin-bottom: 10px ;
+                    border-radius: 10px ;
+                }
+                    #email:hover {
+                        background-color: lightgrey ;
+                    }
+                #senha {
+                    width: 235px;
+                    padding: 22px ;
+                    border-radius: 10px ;
+                }
+                    #senha:hover {
+                        background-color: lightgrey ;
+                    }
+
+
+            a {
+                display: block ;
+                width: 235px;
+
+                background-color: red;
+                color: white;
+
+                text-align: center;
+                text-decoration: none;
+
+                padding: 22px ;
+                border-radius: 10px;
+            }
+                a:hover {
+                    background-color: darkred;
+                }
+
+                a#EsqueceuSenha {
+                    background-color: rgba(0, 0, 0, 0);
+                    font-size: 17px;
+                }
+
+                a#EsqueceuSenha:hover {
+                    text-decoration: underline;
+                }
